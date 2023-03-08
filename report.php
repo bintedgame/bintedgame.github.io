@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $to = "bintedourple@gmail.com";
   $subject = "Binted Bug Report";
   $message = "Name: $name\nEmail: $email\nFeedback:\n$feedback";
-  $headers = "From: webmaster@example.com\r\n";
+  $headers = "From: bintedourple@gmail.com\r\n";
   $headers .= "Reply-To: $email\r\n";
   $headers .= "X-Mailer: PHP/" . phpversion();
 
