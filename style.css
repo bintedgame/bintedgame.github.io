@@ -7,6 +7,15 @@ h1 {
   text-align: center;
   color: #79FFDD;
 }
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("oinkboinkers.png");
+  background-repeat: repeat;
+}
 
 form {
   max-width: 600px;
